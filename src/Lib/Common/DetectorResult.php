@@ -17,8 +17,6 @@
 
 namespace QrCodeReader\Lib\Common;
 
-use QrCodeReader\Lib\ResultPoint;
-
 /**
  * <p>Encapsulates the result of detecting a barcode in an image. This includes the raw
  * matrix of black/white pixels corresponding to the barcode, and possibly points of interest

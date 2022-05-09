@@ -19,19 +19,6 @@ namespace QrCodeReader\Lib\Common;
 
 use QrCodeReader\Lib\NotFoundException;
 
-/**
- * Implementations of this class can, given locations of finder patterns for a QR code in an
- * image, sample the right points in the image to reconstruct the QR code, accounting for
- * perspective distortion. It is abstracted since it is relatively expensive and should be allowed
- * to take advantage of platform-specific optimized implementations, like Sun's Java Advanced
- * Imaging library, but which may not be available in other environments such as J2ME, and vice
- * versa.
- *
- * The implementation used can be controlled by calling {@link #setGridSampler(GridSampler)}
- * with an instance of a class which implements this interface.
- *
- * @author Sean Owen
- */
 abstract class GridSampler {
 
     private static $gridSampler;

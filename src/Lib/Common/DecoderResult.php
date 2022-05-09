@@ -17,15 +17,6 @@
 
 namespace QrCodeReader\Lib\Common;
 
-
-
-/**
- * <p>Encapsulates the result of decoding a matrix of bits. This typically
- * applies to 2D barcode formats. For now it contains the raw bytes obtained,
- * as well as a String interpretation of those bytes, if applicable.</p>
- *
- * @author Sean Owen
- */
 final class DecoderResult {
 
   private $rawBytes;

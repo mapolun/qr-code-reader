@@ -11,18 +11,6 @@ use \QrCodeReader\Lib\NotFoundException;
 use \QrCodeReader\Lib\ResultPoint;
 use \QrCodeReader\Lib\BitMatrix;
 
-/*
- *
- *
-import com.google.QrCodeReader\lib.NotFoundException;
-import com.google.QrCodeReader\lib.ResultPoint;
-import com.google.QrCodeReader\lib.common.BitMatrix;
-
- */
-//require_once('./lib/NotFoundException.php');
-//require_once('./lib/ResultPoint.php');
-//require_once('./lib/common/BitMatrix.php');
-
 
 /**
  * <p>A somewhat generic detector that looks for a barcode-like rectangular region within an image.

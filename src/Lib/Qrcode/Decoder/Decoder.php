@@ -26,14 +26,6 @@ use QrCodeReader\Lib\Common\Reedsolomon\GenericGF;
 use QrCodeReader\Lib\Common\Reedsolomon\ReedSolomonDecoder;
 use QrCodeReader\Lib\Common\Reedsolomon\ReedSolomonException;
 
-
-
-/**
- * <p>The main class which implements QR Code decoding -- as opposed to locating and extracting
- * the QR Code from an image.</p>
- *
- * @author Sean Owen
- */
 final class Decoder {
 
     private  $rsDecoder;

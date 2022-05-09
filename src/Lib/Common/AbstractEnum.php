@@ -2,7 +2,6 @@
 
 namespace QrCodeReader\Lib\Common\CharacterSetEci\AbstractEnum;
 
-use \QrCodeReader\Lib\NotFoundException;
 use ReflectionClass;
 /**
  * A general enum implementation until we got SplEnum.

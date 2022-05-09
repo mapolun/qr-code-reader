@@ -34,17 +34,6 @@ final class DataBlock {
         $this->codewords = $codewords;
     }
 
-    /**
-     * <p>When QR Codes use multiple data blocks, they are actually interleaved.
-     * That is, the first byte of data block 1 to n is written, then the second bytes, and so on. This
-     * method will separate the data into original blocks.</p>
-     *
-     * @param rawCodewords bytes as read directly from the QR Code
-     * @param version version of the QR Code
-     * @param ecLevel error-correction level of the QR Code
-     * @return DataBlocks containing original bytes, "de-interleaved" from representation in the
-     *         QR Code
-     */
     static function getDataBlocks($rawCodewords,
                                   $version,
                                   $ecLevel) {

@@ -17,15 +17,6 @@
 
 namespace QrCodeReader\Lib\Common;
 
-/**
- * <p>This provides an easy abstraction to read bits at a time from a sequence of bytes, where the
- * number of bits read is not often a multiple of 8.</p>
- *
- * <p>This class is thread-safe but not reentrant -- unless the caller modifies the bytes array
- * it passed in, in which case all bets are off.</p>
- *
- * @author Sean Owen
- */
 final class BitSource {
 
   private $bytes;

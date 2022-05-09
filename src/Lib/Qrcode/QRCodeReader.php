@@ -20,7 +20,6 @@ namespace QrCodeReader\Lib\Qrcode;
 require_once('detector/Detector.php');
 
 
-use QrCodeReader\Lib\BinaryBitmap;
 use QrCodeReader\Lib\ChecksumException;
 
 use QrCodeReader\Lib\FormatException;
@@ -28,10 +27,7 @@ use QrCodeReader\Lib\NotFoundException;
 use QrCodeReader\Lib\Reader;
 use QrCodeReader\Lib\Result;
 
-use QrCodeReader\Lib\ResultPoint;
 use QrCodeReader\Lib\Common\BitMatrix;
-use QrCodeReader\Lib\Common\DecoderResult;
-use QrCodeReader\Lib\Common\DetectorResult;
 use QrCodeReader\Lib\Qrcode\Decoder\Decoder;
 use QrCodeReader\Lib\Qrcode\Decoder\QRCodeDecoderMetaData;
 use QrCodeReader\Lib\Qrcode\Detector\Detector;
