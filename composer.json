@@ -1,0 +1,17 @@
+{
+    "name": "administrator/qr-code-reader",
+    "autoload": {
+        "psr-4": {
+            "QrCodeReader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wtt",
+            "email": "1364576479@qq.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3"
+    }
+}
