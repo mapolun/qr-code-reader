@@ -1,5 +1,5 @@
 {
-    "name": "administrator/qr-code-reader",
+    "name": "mapolun/qr-code-reader",
     "autoload": {
         "psr-4": {
             "QrCodeReader\\": "src/"
