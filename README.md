@@ -6,7 +6,7 @@ php识别二维码内容, 不需要安装扩展
 $ composer require mapolun/qr-code-reader
 
 ## 要求
-* PHP >= 5.3 && PHP < 8.0
+* PHP >= 5.3
 
 ## 示例 
 
